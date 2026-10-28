@@ -1,25 +1,3 @@
-Skip to content
-Ylarod
-Florida
-Repository navigation
-Code
-Issues
-14
- (14)
-Pull requests
-2
- (2)
-Agents
-Actions
-Projects
-Security and quality
-Insights
-Florida
-Florida #2440
-All jobs
-Run details
-Workflow file for this run
-.github/workflows/build.yml at 6d4b2e8
 name: Florida
 
 on:
@@ -400,15 +378,3 @@ jobs:
         asset_path: '${{ github.workspace }}/build-android-x86_64/subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.gz'
         asset_name: 'florida-gumjs-${{ needs.check_version.outputs.FRIDA_VERSION }}-android-x86_64.a.gz'
         asset_content_type: application/octet-stream
-Footer
-© 2026 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Community
-Docs
-Contact
-Manage cookies
-Do not share my personal information
